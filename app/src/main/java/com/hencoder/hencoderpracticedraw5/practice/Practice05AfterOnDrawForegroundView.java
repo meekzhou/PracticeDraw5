@@ -26,6 +26,7 @@ public class Practice05AfterOnDrawForegroundView extends AppCompatImageView {
     {
         paint.setTextSize(60);
         setWillNotDraw(false);
+        setLayerType(LAYER_TYPE_SOFTWARE, null);
 
     }
 
